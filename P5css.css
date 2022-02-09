@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: roboto;}
+
+.header img
+{
+	width: 5%;
+	padding: 20px;
+}
+
+.header li
+{
+	list-style-type: none;
+	display: inline;
+	margin: 0px 15px;
+	color: darkslategrey;
+	font-size: 12px;
+	font-weight: bold;
+}
+.header a
+{
+	color:white;
+	background-color: rgba(248,182,59,1.00);
+	padding: 7px 20px;
+	border-radius: 30px;
+	margin: 0px 10px;
+}
+.header ul
+{
+	padding:20px
+}
+
+.header
+{	height: 60px;
+	background-color:rgba(255,255,255,0.66);
+	position:fixed;
+	width: 100%;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	box-shadow: 1px 2px 10px 0px grey
+}
+.poster
+{
+	background-image: url("NamHum_BannerWebDesktop_1920x900px.png");
+	BACKGROUND-SIZE: 100%;
+	background-repeat: no-repeat;
+	height: 90vh;
+	margin-bottom: 50px;
+}
+
+.section2{
+	display: flex;
+	justify-content: center;
+}
+.section2 .left{
+	width: 30%;
+	position: relative;
+}
+.section2 .left h2{
+	color: orange;
+	font-size: 35px;
+}
+.section2 .left p{
+	color: darkslategrey;
+	font-weight:bold;
+	position: absolute;
+	top: 100px;
+}
+
+.Tag{
+	text-align: center;
+	padding: 20px 10px;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: 100px;
+	margin: 10px;
+	box-shadow: 0px 0px 20px 0px #0000003d;
+	width: 25%;
+}
+.section2 .right h6{
+	padding-top: 15px;
+}
+
+.section2 .right{
+	display: flex;
+	width: 55%;
+}
+
+.section3
+{
+	display: flex;
+	justify-content: center;
+	margin: 60px 0px;
+	}
+.section3 iframe{
+	border-radius: 30px;
+	width: 90%;
+}
+
+.Tag:hover{
+	background-color: orange;
+	
+}
+.Tag img:hover{
+	filter:brightness(0);
+	filter:invert(0.5);
+	
+}
+.section4{
+	margin:60px;
+}
+
+.section4 h1
+{
+	color: rgba(248,182,59,1.00)
+	;font-size: 40px;
+	
+}
+.section4 h3
+{
+	font-size: 30px;
+	margin: 5px 0px;
+}
+.section4 hr{
+	border: 1px solid black;
+	margin-top: 8px;
+	margin-bottom:20px;
+}
+a
+{
+	text-decoration: none;
+	color: rgba(248,201,1,1.00);
+}
+
+.section4 .box1{
+	box-shadow: 0px 0px 20px 2px #0000003d;
+	margin: 50px 0px;
+	border-radius:20px;
+	padding: 30px;
+	display:flex;
+	justify-content: space-around;
+}
+.section4 .left1
+{
+	width:45%;
+	background-image: url("hk4-number.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	
+}
+.left1 a
+{
+	color:grey;
+	font-weight:700;
+	;padding: 10px 20px;
+	border:2px solid rgba(248,201,1,1.00);
+	border-radius: 30px;
+	
+}
+.left1 p
+{	font-size: 15px;
+	margin-bottom: 30px;
+	text-align: justify;
+	padding-right: 100px;
+	line-height: 1.4;
+	
+}
+
+.right1
+{
+	width:45%;
+	position:relative;
+	
+}
+.right1 #pic1
+{
+	width:90%;
+}
+.right1 #pic2
+{
+	width:30%;
+	position:absolute;
+	top :0;
+	right:0;
+}
+.section5
+{
+	display:flex;
+	margin: 60px 350px;
+}
+.section5 .left2
+{
+	width: 35%;
+	padding: 10px;
+	text-align: center
+}
+.section5 .left2 img
+{
+	width:100%;
+	border-radius: 15px;
+}
+.section5 .left2 .name
+{
+	font-size:13px;
+	font-weight: bold;
+	margin: 3px 0px;
+}
+.section5 .left2 .guesttitle
+{
+	font-size:13px;
+}
+
+.section5 .right2
+{
+	background-color: lightgray;
+	padding: 30px;
+	font-size: 14px;
+}
